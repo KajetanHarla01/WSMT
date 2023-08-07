@@ -21,6 +21,13 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="basketball_cam17_1920x1080.yuvdist.yuv_600.yuv" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cYUV.h" />
+    <ClInclude Include="TypeDef.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
